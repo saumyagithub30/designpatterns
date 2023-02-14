@@ -31,3 +31,11 @@ c) Builder class have a public constructor with all required parameters.
 d) Builder class should have methods for optional parameters. Method will return the Builder object.
 e) A build method that would return the final object.
 
+**PROTOTYPE DESIGN PATTERN**
+1) Type of Creational Design Pattern
+2) Used when you want to avoid multiple Object creation of same instance. Instead, you copy the object to new object and then modify as per your need.
+
+Implementation:
+a) Object that we are trying to clone should provide us clonable feature by implementing Cloneable interface.
+b) We can override clone method to implement as per our need.
+
