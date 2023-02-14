@@ -47,4 +47,10 @@ Implementation:
 a) In general, we have class which is executing interface executor method, which is executing all commands.
 b) To control this, we add  a Proxy class which implements the same interface & write the condition for 'admin' user before proceeding to actual executor.
 
+**FACADE DESIGN PATTERN**
+1) Type of Structural Design Pattern
+2) Used when there are multiple interfaces which are doing similar kind of jobs, then we add the Facade interface, which provides better interface for these interfaces & clients.
+3) It basically helps in routing to related interfaces i.e. Databases, Drivers
 
+Implementation:
+We'll implement Facade helper class, which will route to method related to specific class based on input.
