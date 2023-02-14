@@ -39,3 +39,12 @@ Implementation:
 a) Object that we are trying to clone should provide us clonable feature by implementing Cloneable interface.
 b) We can override clone method to implement as per our need.
 
+**PROXY DESIGN PATTERN**
+1) Type of Structural Design Pattern
+2) Used when you want to control access i.e. in Databases, you would want to control 'delete' query available only for certain users like admin. 
+
+Implementation:
+a) In general, we have class which is executing interface executor method, which is executing all commands.
+b) To control this, we add  a Proxy class which implements the same interface & write the condition for 'admin' user before proceeding to actual executor.
+
+
